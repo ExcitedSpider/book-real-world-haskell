@@ -9,7 +9,7 @@ asInt :: String -> Int
 {-- snippet loop --}
 loop :: Int -> String -> Int
 
-asInt xs = loop 0 xs
+asInt = loop 0
 {-- /snippet loop --}
 
 {-- snippet base --}
